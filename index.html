@@ -50,17 +50,14 @@
         <h1>
           <br>
         </h1>
-        <h1>vim入門</h1>
+        <h1>Vim入門</h1>
         <p>Vimを知らない人向け資料</p>
-        <p>@k</p>
+        <p>@kazuph</p>
         </section>
         <section>
         <h2>
           <br>
         </h2>
-        <div>
-          <br>
-        </div>
         <div>
           <br>
         </div>
@@ -76,25 +73,14 @@
         <div>みなさんはEditerって何を使ってますか？</div>
         </section>
         <section>
-        <h2>
-          <div style="text-align: left;">
-            <br>
-          </div>
-          <div style="text-align: left;">
-            <br>
-          </div>
-          <div style="text-align: left;">
-            <br>
-          </div>
-          <div style="text-align: left;">
-            <br>
-          </div>
-          <ul>
-            <li>メモ帳？</li>
-            <li>さくらエディタ？</li>
-            <li>秀丸？</li>
-          </ul>
-        </h2>
+        <h3>
+          世にあるエディタ
+        </h3>
+        <ul>
+          <li>メモ帳？</li>
+          <li>さくらエディタ？</li>
+          <li>秀丸？</li>
+        </ul>
         </section>
         <section>
         <h2>
@@ -113,7 +99,7 @@
           <br>
         </div>
         <div>ほとんどのエンジニアは</div>
-        <div>デフォのエディタは使いません</div>
+        <div>デフォルトのエディタは使いません</div>
         </section>
         <section>
         <h2>
@@ -128,26 +114,18 @@
         <div>
           <br>
         </div>
-        <div>
-          <br>
-        </div>
-        <div>
-          <br>
-        </div>
-        <div>プログラミングに特化したエディタを使います</div>
+        <div>プログラミングに特化した<br />エディタを使います</div>
         </section>
         <section>
         <h2>
           <br>
         </h2>
-        <div>
-          <br>
-        </div>
-        <h1>
-          <br>それがVim！</h1>
+        <h2>
+          それがVim！
+        </h2>
         </section>
         <section>
-        <h2>エンジニアが使うエディタ色々</h2>
+        <h3>エンジニアが使うエディタ色々</h3>
         <div>
           <br>
         </div>
@@ -166,20 +144,13 @@
         </div>
         </section>
         <section>
-        <h2>中でもVimはダントツ人気！</h2>
+        <div>中でもVimはダントツ人気！</div>
         <div>
           <a href="http://www.google.co.jp/trends/explore#q=vim%2C%20emacs%2C%20textmate%2C%20sublime%20text%202&amp;cmpt=q">エディタトレンド</a>&nbsp;</div>
         <div>
           <img src="https://dl.dropbox.com/u/6615196/images/editer_trend.png">
           <br>
         </div>
-
-
-
-
-
-
-
         </section>
         <section>
         <h2>
@@ -258,11 +229,10 @@
           <div style="text-align: left;">
             <ul>
               <li>Linuxなら大体どこにでも入っている</li>
-              <li>デファクトスタンダードなエディタ</li>
+              <li>サーバーの設定の際は世界のほぼすべてのエンジニアがViを選択する</li>
               <li>ただし本当にViは簡素なのでVimを入れなおして使っている</li>
               <li>VimはViの拡張</li>
               <li>Vimならプラグインを入れることでどこまでも拡張できる</li>
-              <li>Vimの設定ファイルの長さによって階級がある（500行までが初心者、1500行で中級、3000行まで行って上級者）</li>
             </ul>
           </div>
         </div>
@@ -301,54 +271,80 @@
         <div>
           <br>
         </div>
-        <div>Vimの基本</div>
+        <div>Vimの基本概念</div>
         </section>
-        <section>Vim基本説明<div>
-          <br>
-        </div>
-        <div style="text-align: left;">
-          <ol>
-            <li>vimの起動</li>
-            <li>移動(hjkl)</li>
-            <li>insert mode / nomarl mode の切り替え</li>
-            <li>削除系(x, d, dd)</li>
-            <li>選択（Visual mode）</li>
-            <li>ヤンク/ペースト(yy, p)</li>
-            <li>応用コンボ系</li>
-          </ol>
-        </div>
+        <section>
+          <h3>
+            モード
+          </h3>
+          <ul>
+            <li>ノーマルモード</li>
+            <ul>
+                <li>移動</li>
+            </ul>
+            <li>インサートモード</li>
+            <ul>
+                <li>文字入力</li>
+            </ul>
+            <li>ビジュアルモード</li>
+            <ul>
+                <li>文字選択</li>
+            </ul>
+            <li>コマンドモード</li>
+            <ul>
+                <li>コマンド入力</li>
+            </ul>
+          </ul>
         </section>
-        <section>1. vi/vimの起動</section>
-      </div>
+        <section>
+          <h3>
+            モード(図)
+          </h3>
+          <img src="vim_mode.gif" alt="vim mode" />
+        </section>
+        <section>
+          <h3>
+            基本コマンドはチートシートで！
+          </h3>
+        </section>
+        <section>
+          <h1>
+            DEMO
+          </h1>
+        </section>
+        <section>
+          <h1>
+            あとは実践あるのみ！
+          </h1>
+        </section>
 
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
 
-      <script src="lib/js/head.min.js"></script>
-      <script src="js/reveal.min.js"></script>
+        <script>
 
-      <script>
+          // Full list of configuration options available here:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
 
-        // Full list of configuration options available here:
-        // https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-          controls: true,
-          progress: true,
-          history: true,
+            theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
 
-          theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
-          transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+            { src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+            { src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+            ]
+          });
 
-          // Optional libraries used to extend on reveal.js
-          dependencies: [
-          { src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
-          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
-          { src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
-          ]
-        });
+        </script>
 
-      </script>
-
-    </body>
-  </html>
+      </body>
+    </html>
